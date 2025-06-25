@@ -3,7 +3,7 @@
 This repository contains 7 end-to-end machine learning projects developed during my internship, covering a diverse range of real-world problems including computer vision, classification, and predictive analytics.
 
 ---
-
+![](https://media.istockphoto.com/id/1496673625/vector/blue-abstract-background-with-blue-glowing-diagonal-rounded-lines-modern-shiny-geometric.jpg?b=1&s=612x612&w=0&k=20&c=sPOrYX0f4TCyFnVaSdzMC2id8FZgTYBfHeWrkAz_kXU=)
 ## Projects Overview
 
 | Project # | Title                                      | Task Type            | Tools Used |
