@@ -1,0 +1,23 @@
+artifact_path: file:///c:/Users/DELL/Desktop/dev/ML/Intership/1Project/mlruns/920278463398720638/models/m-d66477aa864d49dfa47796eef5688919/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.12.6
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1+cpu
+mlflow_version: 3.1.1
+model_id: m-d66477aa864d49dfa47796eef5688919
+model_size_bytes: 44820190
+model_uuid: m-d66477aa864d49dfa47796eef5688919
+prompts: null
+run_id: 1b30a90b7105457a9e3ca2f3fb425ac9
+utc_time_created: '2025-06-25 12:40:50.484199'

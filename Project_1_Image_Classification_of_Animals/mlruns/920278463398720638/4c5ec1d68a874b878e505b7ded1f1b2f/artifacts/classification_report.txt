@@ -1,0 +1,21 @@
+              precision    recall  f1-score   support
+
+        Bear       0.95      0.95      0.95        20
+        Bird       0.96      1.00      0.98        22
+         Cat       1.00      0.95      0.97        19
+         Cow       0.90      0.86      0.88        21
+        Deer       0.90      0.90      0.90        20
+         Dog       0.90      1.00      0.95        19
+     Dolphin       1.00      1.00      1.00        20
+    Elephant       0.95      1.00      0.98        21
+     Giraffe       0.95      1.00      0.98        20
+       Horse       0.94      0.85      0.89        20
+    Kangaroo       0.90      0.95      0.93        20
+        Lion       0.95      0.90      0.93        21
+       Panda       1.00      1.00      1.00        21
+       Tiger       1.00      1.00      1.00        20
+       Zebra       1.00      0.95      0.98        22
+
+    accuracy                           0.95       306
+   macro avg       0.95      0.95      0.95       306
+weighted avg       0.95      0.95      0.95       306

@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/DELL/Desktop/dev/ML/Intership/1Project/mlruns/920278463398720638/63b154e7e84540d884643c015ff6bbcf/artifacts
+end_time: 1750845765321
+entry_point_name: ''
+experiment_id: '920278463398720638'
+lifecycle_stage: active
+run_id: 63b154e7e84540d884643c015ff6bbcf
+run_name: My-Model-Animal-classifier
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750845429063
+status: 3
+tags: []
+user_id: DELL

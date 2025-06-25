@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/DELL/Desktop/dev/ML/Intership/1Project/mlruns/920278463398720638/models/m-d66477aa864d49dfa47796eef5688919/artifacts
+creation_timestamp: 1750855250399
+experiment_id: '920278463398720638'
+last_updated_timestamp: 1750855273014
+model_id: m-d66477aa864d49dfa47796eef5688919
+model_type: null
+name: model
+source_run_id: 1b30a90b7105457a9e3ca2f3fb425ac9
+status: 2
+status_message: null

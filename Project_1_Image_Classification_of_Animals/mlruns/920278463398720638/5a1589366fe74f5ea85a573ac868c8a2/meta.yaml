@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/DELL/Desktop/dev/ML/Intership/1Project/mlruns/920278463398720638/5a1589366fe74f5ea85a573ac868c8a2/artifacts
+end_time: 1750856662514
+entry_point_name: ''
+experiment_id: '920278463398720638'
+lifecycle_stage: active
+run_id: 5a1589366fe74f5ea85a573ac868c8a2
+run_name: Notebook Eval on Test
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750856650742
+status: 3
+tags: []
+user_id: DELL
