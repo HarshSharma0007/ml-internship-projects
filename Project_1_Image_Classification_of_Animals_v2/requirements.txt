@@ -1,4 +1,4 @@
-torch
+torch==2.7.1
 torchvision
 albumentations
 numpy
@@ -7,3 +7,6 @@ matplotlib
 opencv-python
 scikit-learn
 scipy
+ipykernel
+tqdm
+seaborn
