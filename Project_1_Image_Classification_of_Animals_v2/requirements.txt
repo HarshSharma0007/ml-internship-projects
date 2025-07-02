@@ -10,3 +10,5 @@ scipy
 ipykernel
 tqdm
 seaborn
+plotly
+kaleido
