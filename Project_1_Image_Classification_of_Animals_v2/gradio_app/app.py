@@ -17,8 +17,9 @@ with gr.Blocks() as demo:
     with gr.Row():
         with gr.Column(scale=6):
             image_input = gr.Image(label="Input Image", type="pil", height=300, value=None)
-            clear_btn = gr.Button("Clear Image")
+            method_selector = gr.Radio(["Integrated Gradients", "Saliency"], value="Integrated Gradients", label="Attribution Method")
 
+            clear_btn = gr.Button("Clear Image")
             clear_btn.click(
                 fn=lambda: None,
                 inputs=[],
@@ -26,18 +27,24 @@ with gr.Blocks() as demo:
             )
 
             gr.Examples(
-            examples=example_paths,
-            inputs=image_input,
-            label="Sample Images",
-            examples_per_page=8,
+                examples=example_paths,
+                inputs=image_input,
+                label="Sample Images",
+                examples_per_page=8,
             )
+
         with gr.Column(scale=4):
             label_output = gr.Label(label="Top Predictions")
             image_output = gr.Image(label="Attribution Heatmap", height=260)
 
     image_input.change(
         fn=classify_and_explain,
-        inputs=image_input,
+        inputs=[image_input, method_selector],
+        outputs=[label_output, image_output]
+    )
+    method_selector.change(
+        fn=classify_and_explain,
+        inputs=[image_input, method_selector],
         outputs=[label_output, image_output]
     )
 

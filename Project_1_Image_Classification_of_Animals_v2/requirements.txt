@@ -13,3 +13,4 @@ seaborn
 plotly
 kaleido
 captum
+streamlit
