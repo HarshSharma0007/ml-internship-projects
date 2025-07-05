@@ -1,4 +1,4 @@
-# 🐾 Animal Image Classification – Version 2
+# 🐾 Animal Image Classification
 
 > A full-stack deep learning solution for multi-class animal image classification using ResNet18, Captum explainability, and beautiful interactive frontends in **Streamlit** and **Gradio**. Built for performance, transparency, and deployment-readiness. Built from scratch with modular design and a strong emphasis on performance, explainability, and ML engineering principles.
 
@@ -149,6 +149,25 @@ cd streamlit_app
 streamlit run Home.py
 ```
 
+
+### Launch On the Local Network
+
+Make sure your Laptop and Mobile are on the connected to the same wifi network.
+
+Run the command:
+```bash
+cd streamlit_app
+streamlit run Home.py
+```
+
+Copy: `Network URL: http://<your-laptop-ip>:8501`
+
+Now from your Mobile device visit to 
+
+`http://<your-laptop-ip>:8501`
+
+In case of any problem, change the port address.
+
 ### Features:
 - File uploader + sample selector
 - Prediction panel with emoji-tagged Top-3 classes
@@ -168,6 +187,39 @@ For quick sharing or integration with Hugging Face / notebooks / colab:
 ```bash
 python app.py
 ```
+
+### Launch On the Local Network
+
+Make sure your Laptop and Mobile are on the connected on the same wifi.
+
+Updation in `app.py`
+from 
+```python 
+demo.launch(show_error=True)
+```
+to
+```python 
+demo.launch(show_error=True,share=True, server_name="0.0.0.0", server_port=7860)
+```
+To know your IP of the server Laptop, there are two ways, 
+
+Open the terminal of your Laptop, and run the command:
+```bash
+ipconfig
+```
+or
+```bash
+ifconfig
+```
+And copy your IP Address.
+
+Otherwise visit settings to know your IP Address of the Laptop.
+
+Now from your Mobile device visit to 
+
+`http://<your-laptop-ip>:7860`
+
+In case of any problem, change the port address.
 
 ### Features:
 - Input: Upload or pick sample image

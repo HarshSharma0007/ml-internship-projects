@@ -49,3 +49,4 @@ with gr.Blocks() as demo:
     )
 
 demo.launch(show_error=True)
+# demo.launch(show_error=True, share=True, server_name="0.0.0.0", server_port=7860, debug=True)
